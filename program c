@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+int n;
+printf("Enter a random number between 1 and 5");
+scanf("%d",&n);
+switch(n)
+{
+case 1:
+printf("Food Item- Pizza\n");
+printf("Price-Rs239");
+break;
+case 2:
+printf("Food Item- Burger\n");
+printf("Price-Rs129");
+break;
+case 3:
+printf("Food Item- Pasta\n");
+printf("Price- Rs179");
+break;
+case 4:
+printf("Food Item- French fries\n");
+printf("Price-Rs99");
+break;
+case 5:
+printf("Food Item- Sanwich\n");
+printf("Price -Rs149");
+break;
+}
+return 0;
+}
